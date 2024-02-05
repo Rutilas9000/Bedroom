@@ -1,14 +1,13 @@
 package Bedroom;
 public class Desk {
-
     private String color;
     private String shape;
-    private String materials;
+    private String material;
 
-    public Desk(String color, String shape, String materials) {
+    public Desk(String color, String shape, String material) {
         this.color = color;
         this.shape = shape;
-        this.materials = materials;
+        this.material = material;
     }
 
     public String getColor() {
@@ -27,11 +26,11 @@ public class Desk {
         this.shape = shape;
     }
 
-    public String getMaterials() {
-        return materials;
+    public String getMaterial() {
+        return material;
     }
 
-    public void setMaterials(String materials) {
-        this.materials = materials;
+    public void setMaterial(String material) {
+        this.material = material;
     }
 }

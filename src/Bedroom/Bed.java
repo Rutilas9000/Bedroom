@@ -1,24 +1,16 @@
 package Bedroom;
+
 public class Bed {
-
-    private String size ; //queen, double, twin, king
     private int numberOfPillows;
+    private String size;
     private String color;
-    private String material; //wooden, metal
+    private String material;
 
-    public Bed(String size, int numberOfPillows, String color, String material) {
-        this.size = size;
+    public Bed(int numberOfPillows, String size, String color, String material) {
         this.numberOfPillows = numberOfPillows;
+        this.size = size;
         this.color = color;
         this.material = material;
-    }
-
-    public String getSize() {
-        return size;
-    }
-
-    public void setSize(String size) {
-        this.size = size;
     }
 
     public int getNumberOfPillows() {
@@ -27,6 +19,14 @@ public class Bed {
 
     public void setNumberOfPillows(int numberOfPillows) {
         this.numberOfPillows = numberOfPillows;
+    }
+
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
     }
 
     public String getColor() {
@@ -46,6 +46,6 @@ public class Bed {
     }
 
     public void make(){
-        System.out.println("Bed class - make() method ");
+        System.out.println("make() is from  ");
     }
 }

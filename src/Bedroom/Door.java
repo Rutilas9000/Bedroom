@@ -1,6 +1,5 @@
 package Bedroom;
 public class Door {
-
     private Size size;
     private String color;
     private String material;
